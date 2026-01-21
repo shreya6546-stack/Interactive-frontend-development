@@ -33,6 +33,7 @@ function palindrome(){
     let arr=[1,2,3,2,1]
     let temp=[]
     let original=[]
+    // let origin=[...arr];
 
     for(let i=0; i<arr,length; i++){
         original.push(arr[i])
