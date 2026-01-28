@@ -24,3 +24,22 @@ function test(){
 }
 let value=test()
 value();
+
+
+function test(a){
+    console.log("test")
+    return function test2(b){
+        console.log("test2")
+        return function test3(c){
+            console.log("test3")
+        }
+    }
+}
+// test()()()
+let values=test(10)
+let value2=value();
+value2(15)
+
+// self invoking fucntion
+
+
