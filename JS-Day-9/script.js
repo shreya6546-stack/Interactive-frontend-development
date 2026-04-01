@@ -20,4 +20,3 @@ for(let i=0; query3.length; i++){
         para[i].style.color="green"
     }
 }
-p[]
